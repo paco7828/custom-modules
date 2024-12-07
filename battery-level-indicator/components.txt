@@ -1,0 +1,9 @@
+-Battery monitoring IC - LM393D - https://www.hestore.hu/prod_10021934.html
+-Output leds:
+    -Red - EVL-SMD0805-RED - https://www.hestore.hu/prod_10043215.html
+    -Green - EVL-GHC-XS1T2M - https://www.hestore.hu/prod_10036384.html
+-Resistors - 100 R 1% - https://www.hestore.hu/prod_10020492.html
+-Capacitors:
+    -at battery input + at IC input - 10 uF / 6,3V - https://www.hestore.hu/prod_10032047.html
+-Diode - SS14 Schottky - https://www.hestore.hu/prod_10039694.html
+-Input pins
