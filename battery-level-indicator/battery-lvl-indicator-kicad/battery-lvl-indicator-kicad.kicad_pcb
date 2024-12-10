@@ -74,7 +74,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -2136,7 +2136,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "100R"
-			(at -0.016 1.6256 0)
+			(at -0.071772 1.8402 0)
 			(layer "F.SilkS")
 			(uuid "e67a101d-68cf-4709-9e49-b6304ab71f4f")
 			(effects
@@ -2303,7 +2303,7 @@
 			(uuid "6affb544-db3a-498d-a34f-21be8c5def45")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at -0.055772 0.2146 0)
 			(layer "F.Fab")
 			(uuid "338f40ee-6745-4042-b553-1e86a7dddeef")
 			(effects
@@ -3153,6 +3153,32 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "09ef35ca-251e-484b-b67f-9004d6753773")
+	)
+	(gr_text "Battery level \nindicator"
+		(at 155.0924 98.7552 0)
+		(layer "B.Cu")
+		(uuid "23864e81-ccb9-4cfd-9775-eece78acc218")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Paco :3"
+		(at 152.7048 106.5276 0)
+		(layer "B.Cu")
+		(uuid "82cb80d3-b034-4ad4-8523-645213421ad0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text ">=40%"
 		(at 154.0256 97.0788 0)
