@@ -1,7 +1,12 @@
 -Boost IC - MAX856CSA+ - https://www.hestore.hu/prod_10027981.html
--Inductor - 
--Schottky diode - SS14 - 
+-Inductor - 10uH / 1.04A / 0.18R - https://www.hestore.hu/prod_10039243.html
+-Schottky diode - SS14 - https://www.hestore.hu/prod_10039694.html
 -Capacitor:
-    -for input - 
-    -for output - 
--Resistors - 
+    -for input - 10 uF / 6,3V - https://www.hestore.hu/prod_10032047.html
+    -for output - 22µF / 6.3V - https://www.hestore.hu/prod_10044732.html
+-Resistors:
+    -10 K 1% - https://www.hestore.hu/prod_10040338.html
+    -20 K 1% - https://www.hestore.hu/prod_10027861.html
+    -for status led - 200 R 5% - https://www.hestore.hu/prod_10038746.html
+-Status led - EVL-SMD0805-RED - https://www.hestore.hu/prod_10043215.html
+-Zener diode - BZT52C5V1 - https://www.hestore.hu/prod_10039936.html
