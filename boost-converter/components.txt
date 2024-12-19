@@ -1,0 +1,7 @@
+-Boost IC - MAX856CSA+ - https://www.hestore.hu/prod_10027981.html
+-Inductor - 
+-Schottky diode - SS14 - 
+-Capacitor:
+    -for input - 
+    -for output - 
+-Resistors - 
