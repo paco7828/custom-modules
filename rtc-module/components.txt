@@ -1,7 +1,6 @@
 -rtc IC - PCF8563T SMD - https://www.hestore.hu/prod_10030157.html
 -crystal - 32.768K7PI/MC306 - https://www.hestore.hu/prod_10043875.html
 -2 pull up resistors for i2c - SMD0805-4.7K-1% - https://www.hestore.hu/prod_10036380.html
--2 diodes - SS14 - https://www.hestore.hu/prod_10039694.html
 -capacitor between rtc ic vcc gnd - 10 uF / 6,3V - https://www.hestore.hu/prod_10032047.html
 -Backup battery - CR2032 - https://www.hestore.hu/prod_10001070.html
 -Backup battery holder - WJ-CR2032-1-W - https://www.hestore.hu/prod_10040829.html 
