@@ -1,22 +1,27 @@
 #include "PCF8563Clock.h"
 
-PCF8563Clock::PCF8563Clock(uint8_t address) {
+PCF8563Clock::PCF8563Clock(uint8_t address)
+{
   _address = address;
 }
 
-void PCF8563Clock::begin() {
+void PCF8563Clock::begin()
+{
   Wire.begin();
 }
 
-byte PCF8563Clock::bcdToDec(byte value) {
+byte PCF8563Clock::bcdToDec(byte value)
+{
   return ((value / 16) * 10 + value % 16);
 }
 
-byte PCF8563Clock::decToBcd(byte value) {
+byte PCF8563Clock::decToBcd(byte value)
+{
   return (value / 10 * 16 + value % 10);
 }
 
-void PCF8563Clock::setTime(byte second, byte minute, byte hour, byte dayOfMonth, byte dayOfWeek, byte month, byte year) {
+void PCF8563Clock::setTime(byte second, byte minute, byte hour, byte dayOfMonth, byte dayOfWeek, byte month, byte year)
+{
   Wire.beginTransmission(_address);
   Wire.write(0x02);
   Wire.write(decToBcd(second));
@@ -29,7 +34,8 @@ void PCF8563Clock::setTime(byte second, byte minute, byte hour, byte dayOfMonth,
   Wire.endTransmission();
 }
 
-void PCF8563Clock::getTime(byte &second, byte &minute, byte &hour, byte &dayOfMonth, byte &dayOfWeek, byte &month, byte &year) {
+void PCF8563Clock::getTime(byte &second, byte &minute, byte &hour, byte &dayOfMonth, byte &dayOfWeek, byte &month, byte &year)
+{
   Wire.beginTransmission(_address);
   Wire.write(0x02);
   Wire.endTransmission();
@@ -44,7 +50,8 @@ void PCF8563Clock::getTime(byte &second, byte &minute, byte &hour, byte &dayOfMo
   year = bcdToDec(Wire.read());
 }
 
-String PCF8563Clock::getFormattedTime() {
+String PCF8563Clock::getFormattedTime()
+{
   byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
   getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
 
@@ -53,11 +60,62 @@ String PCF8563Clock::getFormattedTime() {
   return String(buffer);
 }
 
-String PCF8563Clock::getFormattedDate() {
+String PCF8563Clock::getFormattedDate()
+{
   byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
   getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
 
   char buffer[11]; // Format YYYY/MM/DD
   snprintf(buffer, sizeof(buffer), "20%02d/%02d/%02d", year, month, dayOfMonth);
+  return String(buffer);
+}
+
+String PCF8563Clock::getYear()
+{
+  byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
+  getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
+
+  char buffer[5];
+  snprintf(buffer, sizeof(buffer), "20%02d", year);
+  return String(buffer);
+}
+
+String PCF8563Clock::getMonth()
+{
+  byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
+  getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
+
+  char buffer[3];
+  snprintf(buffer, sizeof(buffer), "%02d", month);
+  return String(buffer);
+}
+
+String PCF8563Clock::getDayNum()
+{
+  byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
+  getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
+
+  char buffer[3];
+  snprintf(buffer, sizeof(buffer), "%02d", dayOfMonth);
+  return String(buffer);
+}
+
+String PCF8563Clock::getHour()
+{
+  byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
+  getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
+
+  char buffer[3];
+  snprintf(buffer, sizeof(buffer), "%02d", hour);
+  return String(buffer);
+}
+
+String PCF8563Clock::getMinute()
+{
+  byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
+  getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
+
+  char buffer[3];
+  snprintf(buffer, sizeof(buffer), "%02d", minute);
   return String(buffer);
 }
