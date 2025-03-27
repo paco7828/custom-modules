@@ -119,3 +119,13 @@ String PCF8563Clock::getMinute()
   snprintf(buffer, sizeof(buffer), "%02d", minute);
   return String(buffer);
 }
+
+String PCF8563Clock::getSecond()
+{
+  byte second, minute, hour, dayOfMonth, dayOfWeek, month, year;
+  getTime(second, minute, hour, dayOfMonth, dayOfWeek, month, year);
+
+  char buffer[3];
+  snprintf(buffer, sizeof(buffer), "%02d", second);
+  return String(buffer);
+}

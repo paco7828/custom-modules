@@ -14,12 +14,12 @@ public:
 
   String getFormattedTime();
   String getFormattedDate();
-
   String getYear();
   String getMonth();
   String getDayNum();
   String getHour();
   String getMinute();
+  String getSecond();
 
 private:
   uint8_t _address;
