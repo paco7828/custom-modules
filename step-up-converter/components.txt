@@ -1,0 +1,7 @@
+1x 4.7uF capacitor - https://www.hestore.hu/prod_10033975.html
+1x 4.7uH inductor - https://www.hestore.hu/prod_10039255.html
+1x MCP1624T-I/CHY IC - https://www.hestore.hu/prod_10032041.html
+1x 1.5MR resistor - https://www.hestore.hu/prod_10001251.html
+1x 470kR resistor - https://www.hestore.hu/prod_10001179.html
+1x 10uF capacitor - https://www.hestore.hu/prod_10032047.html
+2x SS14 - https://www.hestore.hu/prod_10039694.html
