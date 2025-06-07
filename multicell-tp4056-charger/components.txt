@@ -1,0 +1,10 @@
+1x PNP transistor - https://www.hestore.hu/prod_10028131.html
+1x 56R 1W resistor - https://www.hestore.hu/prod_10032878.html
+1x TIP3055 - https://www.hestore.hu/prod_10020892.html
+1x DW01A - https://www.hestore.hu/prod_10046612.html
+1x 8205A - https://www.hestore.hu/prod_10045032.html
+1x SS14 - https://www.hestore.hu/prod_10039694.html
+1x 10uF capacitor - https://www.hestore.hu/prod_10032046.html
+2x LED - https://www.hestore.hu/prod_10043215.html
+3x 1kR resistor - https://www.hestore.hu/prod_10031299.html
+1x TP4056 IC - https://www.hestore.hu/prod_10037291.html
