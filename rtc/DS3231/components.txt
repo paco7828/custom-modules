@@ -1,0 +1,5 @@
+2x SS14 - https://www.hestore.hu/prod_10039694.html
+1x 100nF capacitor - https://www.hestore.hu/prod_10030527.html
+4x 4.7kR resistor - https://www.hestore.hu/prod_10029297.html
+1x DS3231M IC - https://www.aliexpress.com/item/1005007494512806.html?spm=a2g0o.productlist.main.1.5f7d401f4UtIVu&algo_pvid=a532ff26-8643-4a60-8f80-c683abf59bca&algo_exp_id=a532ff26-8643-4a60-8f80-c683abf59bca-0&pdp_ext_f=%7B%22order%22%3A%221%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21HUF%21691.48%21354.70%21%21%211.93%210.99%21%402103917f17499144040286423e7aef%2112000041017422243%21sea%21HU%216367100862%21ABX&curPageLogUid=MggSRxzpu5bT&utparam-url=scene%3Asearch%7Cquery_from%3A
+1x CR2032 Battery holder - https://www.hestore.hu/prod_10045258.html
