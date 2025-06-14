@@ -2,7 +2,5 @@
 2x 4.7kR resistor - https://www.hestore.hu/prod_10036380.html
 2x SS14 - https://www.hestore.hu/prod_10039694.html
 1x CR2032 Battery holder - https://www.hestore.hu/prod_10045258.html
-1x 150R resistor - https://www.hestore.hu/prod_10001149.html
-1x LED - https://www.hestore.hu/prod_10043215.html
 1x 32.768kHz crystal - https://www.hestore.hu/prod_10025521.html
 1x PCF8563 IC - https://www.hestore.hu/prod_10030157.html
