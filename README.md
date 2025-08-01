@@ -11,3 +11,4 @@ Included modules:
  - rtc module using PCF8563
  - rtc module using DS3231M
  - single relay module
+ - IR proximity sensor
