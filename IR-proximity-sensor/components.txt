@@ -1,0 +1,7 @@
+1x photo diode - https://www.hestore.hu/prod_10028072.html
+1x IR led - https://www.hestore.hu/prod_10041889.html
+2x 150R resistor - https://www.hestore.hu/prod_10001149.html
+1x 10kR resistor - https://www.hestore.hu/prod_10001145.html
+1x potmeter - https://www.hestore.hu/prod_10040225.html#
+1x LM358 - https://www.hestore.hu/prod_10023630.html
+1x Status led - https://www.hestore.hu/prod_10043215.html
